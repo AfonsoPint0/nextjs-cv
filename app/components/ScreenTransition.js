@@ -32,9 +32,12 @@ export default function ScreenTransition({ ScrollY, delay, arrow = 0,  children 
 
   return (
     <div>
-      <div className={"md:pt-40 xl:pt-64 flex justify-center transition-opacity ease-in-out delay-350 " + (!isVisible && arrow ? 'opacity-100 block' : 'opacity-0 hidden')}>
+      <div className={"md:pt-40 flex justify-center transition-opacity ease-in-out delay-350 " + (!isVisible && arrow ? 'opacity-100 block' : 'opacity-0 hidden')}>
           <div className="animate-bounce text-xl">
-              &#129107;
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="35">
+            <path d="M12 20l-8-16h16z" fill="#ffffff"/>
+          </svg>
+
           </div>
       </div>
       <div ref={targetRef} className={"transition-opacity ease-in-out delay-" + delay + " " + (isVisible ? "opacity-100" : "opacity-0")}>

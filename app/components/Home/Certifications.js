@@ -2,7 +2,7 @@ import ScreenTransition from "../ScreenTransition";
 export default function Certifications(){
     return(
         <div className="py-10">
-            <ScreenTransition ScrollY={1900} delay={500} arrow={1}>
+            <ScreenTransition ScrollY={1900} delay={500}>
                 <div className="text-3xl flex justify-center pb-2">Certifications</div>
                 <div className="mb-4 border-2 hover:border-dotted p-2 dark:border-white border-zinc-700">                                
                     <div className="flex justify-between">
