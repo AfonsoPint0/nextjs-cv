@@ -4,8 +4,8 @@ import AppearOnScroll from "../Animations/AppearOnScroll";
 export default function Intro(){    
     return(
         <div className="py-10">
-            <AppearOnScroll duration={1000} delay={200}>
-                <div className="text-3xl flex justify-center pb-2">Short introduction</div>                
+            <AppearOnScroll duration={"1000"} delay={"200"}>
+                <div className="text-3xl flex justify-center pb-8">Short introduction</div>                
                     <div className="p-2">
                     Currently living in Portugal, started coding at 16 and haven't stopped since. I've always had a keen interest in understanding how things work, so when the time to choose my career path came, I had two options in mind: mechanics or software development.
                     </div>
