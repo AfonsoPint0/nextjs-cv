@@ -8,6 +8,7 @@ export default function Footer()  {
           <a className="p-3 underline" target="none" href="mailto:afonso.pinto2710@hotmail.com">E-mail</a>
           <a className="p-3 underline" target="none" href="tel:912008773">Phone</a>
           <a className="p-3 underline" target="none" href="https://www.linkedin.com/in/afonso-pinto/">LinkedIn</a>
+          <a className="p-3 underline" target="none" href="/CV_AfonsoPinto.pdf">CV(PDF)</a>          
         </div>
         <div className="text-center">Afonso Pinto 2024</div>
       </div>

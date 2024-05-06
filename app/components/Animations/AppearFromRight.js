@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-export default function AppearFromRight({ duration = 75, delay = 75, invert = 0, children }) {
+export default function AppearFromRight({ invert = 0, children }) {
   const [isVisible, setIsVisible] = useState(false);
   const elementRef = useRef(null);
 

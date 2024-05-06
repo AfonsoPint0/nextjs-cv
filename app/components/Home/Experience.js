@@ -8,7 +8,7 @@ export default function Experience(){
             <Appear duration={1000}>
                 <div className="text-3xl flex justify-center pb-8">Experience</div>
                 <ol className="relative border-s border-zinc-800 dark:border-zinc-500">
-                    <AppearFromRight duration={"1000"} delay={"350"}>            
+                    <AppearFromRight>            
                         <li className="mb-10 ms-4">
                             <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 bg-zinc-600 dark:bg-white"></div>
                             <time className="mb-1 text-base font-normal leading-none text-zinc-600 dark:text-zinc-400">Oct 2023 - present</time>
@@ -21,7 +21,7 @@ export default function Experience(){
                             </div>
                         </li>
                     </AppearFromRight>
-                    <AppearFromRight duration={"1000"} delay={"350"}>                
+                    <AppearFromRight>                
                         <li className="mb-10 ms-4">
                             <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 bg-zinc-600 dark:bg-white"></div>
                             <time className="mb-1 text-base font-normal leading-none text-zinc-600 dark:text-zinc-400">Jan 2022 - Oct 2023</time>
@@ -48,7 +48,7 @@ export default function Experience(){
                             </div>
                         </li>           
                     </AppearFromRight>
-                    <AppearFromRight duration={"1000"} delay={"350"}>                                        
+                    <AppearFromRight>                                        
                         <li className="mb-10 ms-4">
                             <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 bg-zinc-600 dark:bg-white"></div>
                             <time className="mb-1 text-base font-normal leading-none text-zinc-600 dark:text-zinc-400">Oct 2021 - Dec 2021</time>
@@ -67,7 +67,7 @@ export default function Experience(){
                             </div>    
                         </li>           
                     </AppearFromRight>
-                    <AppearFromRight duration={"1000"} delay={"350"}>                
+                    <AppearFromRight>                
                         <li className="mb-10 ms-4">
                             <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 bg-zinc-600 dark:bg-white"></div>
                             <time className="mb-1 text-base font-normal leading-none text-zinc-600 dark:text-zinc-400">May 2021 - Jul 2021</time>
