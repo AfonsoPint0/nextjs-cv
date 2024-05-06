@@ -28,7 +28,7 @@ export default function AppearFromRight({ duration = 75, delay = 75, invert = 0,
 
   return (
     <div ref={elementRef} 
-      className={`transition delay-${delay} duration-${duration} 
+      className={`transition delay-350 duration-1000
         ${isVisible ? 
           ' translate-x-0 blur-none' : 
           ` ${invert ? '-' : ''}translate-x-full blur-sm`
