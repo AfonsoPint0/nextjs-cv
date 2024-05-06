@@ -3,7 +3,7 @@ import Appear from "../Animations/Appear";
 export default function Certificates(){
     return(
         <div className="py-10 pb-20">
-            <Appear duration={1000} delay={0}>
+            <Appear duration={1000} >
                 <div className="text-3xl flex justify-center pb-2">Certificates</div>
                 <div className="mb-4 border-2 hover:border-dotted p-2 dark:border-white border-zinc-700">                                
                     <div className="flex justify-between">

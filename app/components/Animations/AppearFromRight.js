@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-export default function AppearFromRight({ duration = 75, delay = 75,invert = 0, children }) {
+export default function AppearFromRight({ duration = 75, delay = 75, invert = 0, children }) {
   const [isVisible, setIsVisible] = useState(false);
   const elementRef = useRef(null);
 
@@ -28,10 +28,10 @@ export default function AppearFromRight({ duration = 75, delay = 75,invert = 0, 
 
   return (
     <div ref={elementRef} 
-      className={`transition-transform duration-${duration} delay-${delay} 
+      className={`transition delay-${delay} duration-${duration} 
         ${isVisible ? 
-          'translate-x-0 blur-none' : 
-          `${invert ? '-' : ''}translate-x-full blur-sm`
+          ' translate-x-0 blur-none' : 
+          ` ${invert ? '-' : ''}translate-x-full blur-sm`
         }`
     }>
       {children} 
