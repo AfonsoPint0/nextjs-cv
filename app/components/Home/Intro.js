@@ -1,27 +1,10 @@
-import React, { useState, useEffect } from 'react';
 
-import ScreenTransition from "../ScreenTransition"
+import AppearOnScroll from "../Animations/AppearOnScroll";
 
-export default function Intro(){
-    const [isVisible, setVisible] = useState(false);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            setVisible(true);            
-        };
-
-        if(window.scrollY > 0) handleScroll();
-        
-        window.addEventListener('scroll', handleScroll);
-      
-        return () => {
-          window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
+export default function Intro(){    
     return(
         <div className="py-10">
-            <ScreenTransition ScrollY={0} delay={"500"} arrow={1}>
+            <AppearOnScroll duration={1000} delay={200}>
                 <div className="text-3xl flex justify-center pb-2">Short introduction</div>                
                     <div className="p-2">
                     Currently living in Portugal, started coding at 16 and haven't stopped since. I've always had a keen interest in understanding how things work, so when the time to choose my career path came, I had two options in mind: mechanics or software development.
@@ -37,10 +20,10 @@ export default function Intro(){
                         My main stack:
                     </div>
                     <div className="pl-4 flex justify-center">
-                        <div className="text-base"> C# | .NET | JS | SQL | CSS</div>                    
+                        <div className="text-base"> C# | .NET | JS | REACT | SQL | CSS</div>                    
                     </div>  
                 </div>          
-            </ScreenTransition>
+            </AppearOnScroll>
         </div>
     )
 }
