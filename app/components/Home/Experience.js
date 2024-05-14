@@ -11,7 +11,7 @@ export default function Experience(){
                     <AppearFromRight>            
                         <li className="mb-10 ms-4">
                             <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 bg-zinc-600 dark:bg-white"></div>
-                            <time className="mb-1 text-base font-normal leading-none text-zinc-600 dark:text-zinc-400">Oct 2023 - present</time>
+                            <time className="mb-1 text-base font-normal leading-none text-zinc-600 dark:text-zinc-400">Sep 2023 - present</time>
                             <div className="border-2 hover:border-dotted p-2 dark:border-white border-zinc-700">
                                 <div className="text-2xl">Capgemini</div>                        
                                 <div className="pl-1">
@@ -24,7 +24,7 @@ export default function Experience(){
                     <AppearFromRight>                
                         <li className="mb-10 ms-4">
                             <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 bg-zinc-600 dark:bg-white"></div>
-                            <time className="mb-1 text-base font-normal leading-none text-zinc-600 dark:text-zinc-400">Jan 2022 - Oct 2023</time>
+                            <time className="mb-1 text-base font-normal leading-none text-zinc-600 dark:text-zinc-400">Jan 2022 - Sep 2023</time>
                             <div className="border-2 hover:border-dotted p-2 dark:border-white border-zinc-700">
                                 <div className="text-2xl">FEGIME</div>
                                 <div className="pl-1">
