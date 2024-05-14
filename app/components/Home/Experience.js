@@ -55,7 +55,7 @@ export default function Experience(){
                             <div className="border-2 hover:border-dotted p-2 dark:border-white border-zinc-700">                                 
                                 <div className="text-2xl">Digital Xperience</div>
                                 <div className="pl-1">
-                                    <div className="text-lg ">Full-Stack Developer</div>
+                                    <div className="text-lg ">Frontend Developer</div>
                                     <div className="text-base pb-1">Contributed as a Front-End Developer by crafting dynamic websites.</div>
                                 </div>
                                 <div className="pb-2">
