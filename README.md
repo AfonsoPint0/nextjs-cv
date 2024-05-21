@@ -1,2 +1,1 @@
-Developed in REACT/NextJS
-Styling made with TailwindCSS
+Developed in REACT/NextJS, styling made with TailwindCSS
