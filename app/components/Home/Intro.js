@@ -7,7 +7,7 @@ export default function Intro(){
             <AppearOnScroll duration={"1000"} delay={"200"}>
                 <div className="text-3xl flex justify-center pb-8">Short introduction</div>
                 <div className="text-3xl flex justify-center pb-2">
-                    <img src="https://afonsopint0.github.io/Portfolio/img/profilepic.JPG" className="rounded-lg  h-40 object-center" alt="Description" />             
+                    <img src="profilepic.JPG" className="rounded-lg  h-40 object-center" alt="Description" />             
                 </div>
                 <div className="p-2">
                 Currently living in Portugal, started coding at 16 and haven't stopped since. I've always had a keen interest in understanding how things work, so when the time to choose my career path came, I had two options in mind: mechanics or software development.
