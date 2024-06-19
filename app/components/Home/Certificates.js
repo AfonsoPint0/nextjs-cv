@@ -41,7 +41,7 @@ export default function Certificates(){
                         <div className="text-zinc-600 dark:text-zinc-400">2024</div>
                     </div>
                     <div className="pl-1">
-                        <div className="">Foundational C# with Microsoft</div>
+                        <div className="">freeCodeCamp: Foundational C# with Microsoft</div>
                         <a className="underline hover:animate-pulse" target="none" href="https://freecodecamp.org/certification/fcc264ee571-1ddd-497d-ac0b-454a3a8165d5/foundational-c-sharp-with-microsoft">View certificate</a>
                     </div>               
                 </div>  
