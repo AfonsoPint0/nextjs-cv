@@ -24,7 +24,17 @@ export default function Certificates(){
                         <div className="">Microsoft Certified: Azure AI Fundamentals</div>
                         <a className="underline hover:animate-pulse" target="none" href="https://learn.microsoft.com/pt-pt/users/afonsopinto-2548/credentials/5a778d2d0b872114">View certificate</a>
                     </div>               
-                </div>    
+                </div>
+                <div className="mb-4 border-2 hover:border-dotted p-2 dark:border-white border-zinc-700">                                
+                    <div className="flex justify-between">
+                        <div className="text-2xl">PL-900</div>
+                        <div className="text-zinc-600 dark:text-zinc-400">2024</div>
+                    </div>
+                    <div className="pl-1">
+                        <div className="">Microsoft Certified: Power Platform Fundamentals</div>
+                        <a className="underline hover:animate-pulse" target="none" href="https://learn.microsoft.com/en-us/users/afonsopinto-2548/credentials/61ccdc80991b64ad">View certificate</a>
+                    </div>               
+                </div>
                 <div className="border-2 hover:border-dotted p-2 dark:border-white border-zinc-700">                                
                     <div className="flex justify-between">
                         <div className="text-2xl">Foundational C#</div>
